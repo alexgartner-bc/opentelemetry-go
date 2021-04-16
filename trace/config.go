@@ -43,7 +43,7 @@ type TracerOption interface {
 	// A private method to prevent users implementing the
 	// interface and so future additions to it will not
 	// violate compatibility.
-	private()
+
 }
 
 // SpanConfig is a group of options for a Span.
@@ -81,7 +81,7 @@ type SpanOption interface {
 	// A private method to prevent users implementing the
 	// interface and so future additions to it will not
 	// violate compatibility.
-	private()
+
 }
 
 // NewEventConfig applies all the EventOptions to a returned SpanConfig. If no
@@ -106,7 +106,7 @@ type EventOption interface {
 	// A private method to prevent users implementing the
 	// interface and so future additions to it will not
 	// violate compatibility.
-	private()
+
 }
 
 // LifeCycleOption applies span life-cycle options to a SpanConfig. These

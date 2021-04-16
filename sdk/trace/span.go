@@ -64,7 +64,7 @@ type ReadOnlySpan interface {
 	// A private method to prevent users implementing the
 	// interface and so future additions to it will not
 	// violate compatibility.
-	private()
+
 }
 
 // ReadWriteSpan exposes the same methods as trace.Span and in addition allows

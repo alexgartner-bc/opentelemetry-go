@@ -70,7 +70,7 @@ type Option interface {
 	// A private method to prevent users implementing the
 	// interface and so future additions to it will not
 	// violate compatibility.
-	private()
+
 }
 
 type option struct{}
